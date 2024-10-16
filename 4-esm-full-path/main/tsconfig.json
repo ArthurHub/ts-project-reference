@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "Node16",
+    "moduleResolution": "Node16",
+    // standard
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true
+  },
+  // libs reference
+  "references": [
+    {
+      "path": "../libs"
+    }
+  ]
+}
