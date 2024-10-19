@@ -1,0 +1,17 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "libs": "1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.2",
+    "typescript": "^5.6.2"
+  },
+  "scripts": {
+    "clean": "tsc --build --clean && rm -rf dist",
+    "build": "tsc --build",
+    "start": "node dist/main.js"
+  }
+}

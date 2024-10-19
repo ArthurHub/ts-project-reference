@@ -1,0 +1,16 @@
+{
+  "name": "libs",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    "./common.js": "./dist/common.js"
+  },
+  "scripts": {
+    "clean": "tsc --build --clean && rm -rf dist",
+    "build": "tsc --build"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2",
+    "@types/node": "^22.7.2"
+  }
+}

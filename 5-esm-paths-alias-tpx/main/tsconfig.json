@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "Node16",
+    "moduleResolution": "Node16",
+    // standard
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    // paths aliases
+    "baseUrl": "./src",
+    "paths": {
+      "@libs/*": ["../../libs/src/*"]
+    }
+  },
+  "references": [
+    {
+      "path": "../libs"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^22.7.2",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  },
+  "scripts": {
+    "exec": "tsx src/main.ts"
+  }
+}

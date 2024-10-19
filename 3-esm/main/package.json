@@ -1,0 +1,12 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^5.6.2",
+    "@types/node": "^22.7.2"
+  },
+  "scripts": {
+    "exec": "tsc --build && node dist/main.js"
+  }
+}

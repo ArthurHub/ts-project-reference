@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "name": "root-workspace",
+  "workspaces": [
+    "libs",
+    "main"
+  ]
+}
