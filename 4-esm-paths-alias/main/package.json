@@ -7,12 +7,9 @@
     "typescript": "^5.6.2"
   },
   "dependencies": {
-    "esm-module-alias": "^2.2.1"
-  },
-  "aliases": {
-    "@libs": "../libs/dist"
+    "ts-paths-esm-loader": "^1.4.3"
   },
   "scripts": {
-    "exec": "tsc --build && node --loader=esm-module-alias/loader --no-warnings dist/main.js"
+    "exec": "tsc --build && node --loader=ts-paths-esm-loader --no-warnings dist/main.js"
   }
 }
