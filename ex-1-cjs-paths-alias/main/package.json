@@ -11,5 +11,8 @@
   "_moduleAliases": {
     "@deep": "./dist/local/deep/path",
     "@libs": "../libs/dist"
+  },
+  "scripts": {
+    "exec": "tsc --build && node dist/main.js"
   }
 }

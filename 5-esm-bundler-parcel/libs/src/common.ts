@@ -1,3 +1,3 @@
 export function logMessage() {
-  console.log('Logging message in libs reference with ESM, full reference, and alias');
+  console.log('Logging message in libs reference with ESM and paths aliases using parcel bundler');
 }

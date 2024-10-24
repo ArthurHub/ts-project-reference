@@ -2,13 +2,12 @@
   "compilerOptions": {
     "target": "ES6",
     "module": "CommonJS",
-    // standard
     "outDir": "./dist",
     "rootDir": "./src",
     "strict": true,
+    // paths alias
     "baseUrl": "./src",
     "paths": {
-      "@deep/*": ["local/deep/path/*"],
       "@libs/*": ["../../libs/src/*"]
     }
   },
